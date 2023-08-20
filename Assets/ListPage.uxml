@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/stylesheet.uss?fileID=7433441132597879392&amp;guid=04763f1f06f46c34cac3a9ab68e2fe25&amp;type=3#stylesheet" />
+    <ui:ListView name="list" virtualization-method="DynamicHeight" selection-type="None" show-alternating-row-backgrounds="All" item-template="project://database/Assets/Profile.uxml?fileID=9197481963319205126&amp;guid=fbe42ca6d4cc3224c8e99a516675483e&amp;type=3#Profile" binding-source-selection-mode="AutoAssign" show-bound-collection-size="false" />
+</ui:UXML>
